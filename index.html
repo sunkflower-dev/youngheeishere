@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Younghee's Here</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="phone" data-screen="lock">
+  <!-- status bar + dynamic island -->
+  <div id="status">
+    <span class="status-bar-time"></span>
+    <span class="sys"><span class="sig"><i></i><i></i><i></i><i></i></span><b class="bat"></b></span>
+  </div>
+  <i id="island"></i>
+  <div id="toast" class="hidden"></div>
+
+
+  <!-- LOCK SCREEN -->
+  <div id="lock" class="screen wall hidden">
+    <span class="lk">🔒</span>
+    <div class="lock-screen-date"></div>
+    <div class="lock-screen-time"></div>
+    <div id="lockbtm"><span>🔦</span><span>📷</span></div>
+    <small id="swipe">Tap to unlock</small>
+    <div id="pad" class="hidden">
+      <p>Enter Passcode</p><div id="dots"></div><div id="keys"></div><small id="hint"></small>
+      <span id="cancel">Cancel</span>
+    </div>
+  </div>
+
+  <!-- HOME SCREEN -->
+  <div id="home" class="screen wall hidden">
+    <div id="apps"></div>
+    <div id="search">🔍 Search</div>
+    <div id="dock"></div>
+  </div>
+
+  <!-- WHATSAPP -->
+  <div id="chat" class="screen hidden">
+    <div class="hdr"><span class="back">‹</span><img src="images/96z.jpg"><div><b>96z</b><span class="hsub" id="sub"></span></div><span class="hico">📹&nbsp;&nbsp;📞</span></div>
+    <div id="msgs"></div>
+    <div id="inputbar"><span id="attach">＋</span><div id="inp" class="ph">Message</div><button id="send" class="hidden">➤</button></div>
+  </div>
+
+  <!-- CHROME -->
+  <div id="chrome" class="screen hidden">
+    <div class="addr"><span class="back">‹</span><div>🔒 google.com</div><span>⟳</span></div>
+    <div id="cbody">
+      <div id="gHome" class="logo"><b style="color:#4285f4">G</b><b style="color:#ea4335">o</b><b style="color:#fbbc05">o</b><b style="color:#4285f4">g</b><b style="color:#34a853">l</b><b style="color:#ea4335">e</b></div>
+      <div id="gsearch"><span>🔍</span><span id="gq" class="ph">Search Google or type a URL</span><span>🎤</span></div>
+      <button id="gbtn" class="hidden">Google Search</button>
+      <div id="gTiles"><div><i>▶️</i>YouTube</div><div><i>✉️</i>Gmail</div><div><i>🗺️</i>Maps</div><div><i>📰</i>News</div></div>
+      <div id="gRes" class="hidden"></div>
+    </div>
+    <div class="ctool"><span>‹</span><span>›</span><span>＋</span><span>▢</span><span>⋯</span></div>
+  </div>
+
+  <div id="gmail" class="screen hidden"><div id="mailui"></div></div>
+  <div id="notes" class="screen hidden"><div id="noteui"></div></div>
+
+  <!-- GALLERY (Photos) -->
+  <div id="gallery" class="screen hidden">
+    <div class="phdr"><span class="back">‹</span></div>
+    <h1 class="big">Library</h1>
+    <div class="pgrid" id="galgrid"></div>
+  </div>
+
+  <!-- WAVEFORM -->
+  <div id="wave" class="screen hidden">
+    <div class="phdr"><span class="back">‹</span><b>Audio Waveform</b></div>
+    <div id="wavebody"><button id="upl">⬆ Upload video from Photos</button><div id="waveRes"></div></div>
+  </div>
+
+  <div id="picker" class="hidden"></div>
+  <div id="viewer" class="hidden"></div>
+  <div id="modal" class="hidden"></div>
+  <div id="full" class="hidden"></div>
+  <div id="final" class="hidden"></div>
+  <div id="homebar"></div>
+</div>
+<script src="story.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
