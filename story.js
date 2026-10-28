@@ -15,9 +15,9 @@ const CONFIG = {
   ],
   // 4 notes
   notes: [
-    { title: "Alfa Besok", body: "- Oat Milk\n- Telor 2 lusin\n- Roti shokupan (tanya jun)\n- Coke Zero\n- Sunlight strawberry?? (konfirm ke jun)\n- Garem\n- Lada\n- dada ayam" },
+    { title: "grocery list", body: "- Oat milk\n- 2 dozen eggs\n- Shokupan bread (ask Jun)\n- Coke Zero\n- Sunlight strawberry?? (confirm with Jun)\n- Salt\n- Pepper\n- Chicken breast" },
     { title: "June 10", body: "I don't know why I keep looking back at that day, or how you managed to anchor me when everything else was slipping away.\n Sometimes the silence in this house is unbearable, but just knowing you're somewhere out there... watching, waiting, making sure I don't forget, changes everything.\n I am so endlessly thankful to have you.\n Even when the lights flicker and I hear footsteps right outside the door, I know you're keeping me safe.\n Don't ever leave." },
-    { title: "Untitled Draft (2)", body: "Tolong jangan pernah ganti parfummu, karena aku menyukai bau yang kamu tinggalkan di udara setiap kali kamu melintas di depanku.\nAku selalu berjalan sepuluh langkah di belakangmu, menjaga jarak agar kamu tidak mendengar betapa bisingnya detak jantungku.\nSuatu hari nanti, kamu pasti akan sadar bahwa tidak ada seorang pun di dunia ini yang memperhatikanmu sedetail aku.\nDan saat hari itu tiba, kamu tidak perlu mencari kemana-mana lagi, karena aku sudah ada di sana...berdiri tepat di balik pintumu." },
+    { title: "Untitled Draft (2)", body: "Please never change your perfume, because I love the scent you leave in the air every time you walk past me.\nI always walk ten paces behind you, keeping my distance so you won't hear how loud my heartbeat is.\nSomeday, you're bound to realize that no one else in this world pays attention to you down to the smallest detail like I do.\nAnd when that day comes, you won't have to look anywhere else, because I'll already be there... standing right behind your door." },
     { title: "Untitled Draft (1)", body: "I keep a piece of the glass you broke\nA little souvenir of the day you spoke\nYou said you needed space to breathe\nSo I watch from the tree line, just beneath\nYou don’t have to miss me,\nI’m already there In the static on your TV, in the cold night air\nSleep tight, my love, lock every door I know where you hide the key under the floor\nIt’s sweet how you think you’re ever alone\nWhen every step you take is already my home" }
   ],
   // 7 photos + 2 videos
@@ -34,13 +34,13 @@ const CONFIG = {
   ],
   // 7 emails
   emails: [
-    { from: "Pledis A&R Team", color: "#1a73e8", time: "3:01 AM", subject: "RE: Track Demo Feedback - 'Spell' Revision 04", body: "Jihoon,\n\nIn general ini lagu sudah mantap, tapi manajemen ngerasa bagian bridge-nya masih kurang oke untuk dijadiin main title track. Bisa tolong aransemen ulang vokalnya sebelum besok sore ga? Kita perlu ngefix-in final stems sebelum sesi mixing sama Bumzu.\n\n- Minho", unread: true },
-    { from: "Bumzu", color: "#e8710a", time: "Yesterday", subject: "Studio B Stems", body: "Hei Hoon, gua baru update multi-track buat instrumental baru di server. Coba cek track 14, udah gua otak-atik tadi synth leadnya, tapi kabarin aja kalau lu kurang sreg. Oia, kita jadi rekaman vokal tengah malam nanti?", unread: false },
+    { from: "Pledis A&R Team", color: "#1a73e8", time: "3:01 AM", subject: "RE: Track Demo Feedback - 'Spell' Revision 04", body: "Jihoon,\n\nOverall this track is solid, but management feels the bridge still isn't quite right to be the main title track. Could you re-arrange the vocals before tomorrow afternoon? We need to lock in the final stems before the mixing session with Bumzu.\n\n- Minho", unread: true },
+    { from: "Bumzu", color: "#e8710a", time: "Yesterday", subject: "Studio B Stems", body: "Hey Hoon, I just updated the multi-track for the new instrumental on the server. Take a look at track 14, I tweaked the synth lead earlier, but let me know if it doesn't vibe with you. By the way, are we still on for the midnight vocal recording?", unread: false },
     { from: "Studio Booking Admin", color: "#188038", time: "Mon", subject: "CONFIRMED: Studio A Reservation (Oct 28 - Nov 02)", body: "Your booking for Studio A (Main Mixing Suite) has been confirmed for the upcoming week. Access card required for entry after 10 PM. Please ensure all personal equipment is cleared out by the end of the slot.", unread: false },
-    { from: "KOMCA Licensing", color: "#a142f4", time: "Sun", subject: "Pemberitahuan Pendaftaran Lagu: ID 10049281", body: "Kepada WOOZI Yth. (PU-08492), pendaftaran karya terbaru Anda telah berhasil diproses dan diverifikasi dalam basis data. Silakan tinjau lembar metadata terlampir untuk mengonfirmasi pembagian persentase penulis bersama.", unread: false },
-    { from: "Melon Publishing", color: "#d93025", time: "Oct 20", subject: "Laporan & Pelunasan Royalti Streaming Triwulanan", body: "Laporan royalti Anda untuk Q3 sekarang sudah tersedia di portal. Transfer deposit langsung akan diproses dalam 3 hari kerja ke rekening terdaftar Anda yang berakhiran 4082.", unread: false },
-    { from: "Vocal Director / Coach", color: "#12b5cb", time: "Oct 18", subject: "Guide track vocals for unit project", body: "Halo Jihoon, aku udah unggah rough guide buat lagu unit, tapi turun satu oktaf karena ga sampe nadanya ketinggian, tapi sesuaikan aja lah nanti pas rekaman beneran. HMU kalau butuh rekaman ulang.", unread: false },
-    { from: "Unknown Sender", color: "#5f6368", time: "Oct 12", subject: "masih bangun ga?", body: "suara ketikan kamu kedengaran sampai ke sini. kenapa kamu selalu berhenti setiap kali jam dinding berdenting tiga kali?", unread: true }
+    { from: "KOMCA Licensing", color: "#a142f4", time: "Sun", subject: "Song Registration Notice: ID 10049281", body: "Dear WOOZI (PU-08492), your latest work registration has been successfully processed and verified in the database. Please review the attached metadata sheet to confirm the co-writer split percentages.", unread: false },
+    { from: "Melon Publishing", color: "#d93025", time: "Oct 20", subject: "Quarterly Streaming Royalty Report & Payout", body: "Your Q3 royalty report is now available on the portal. Direct deposit transfer will be processed within 3 business days to your registered account ending in 4082.", unread: false },
+    { from: "Vocal Director / Coach", color: "#12b5cb", time: "Oct 18", subject: "Guide track vocals for unit project", body: "Hey Jihoon, I uploaded the rough guide for the unit song, but dropped it down an octave since I couldn't quite hit the high notes, just adjust it later during the actual recording. HMU if you need a re-take.", unread: false },
+    { from: "Unknown Sender", color: "#5f6368", time: "Oct 12", subject: "still awake?", body: "the sound of your typing can be heard all the way over here. why do you always stop every time the wall clock chimes three times?", unread: true }
   ]
 };
 
@@ -73,59 +73,59 @@ const story = [
   // ---------- SCENE 1 ----------
   { w: "Jun", file: "younghee_is_here.mp4", size: "14.2 MB", id: "vid1", thumb: "images/video.jpg" },
   { open: "vid1", secs: 4 },
-  { w: "Jun", t: "eh guys, gue nemu banyak video pas lagi beresin kaset lama di loteng ortu, nemu satu yang isinya klip dari acara tv jadul yang dulu sering kita tonton bareng sepulang sekolah di rumah soonyoung. inget gak sama younghee's here?" },
-  { w: "Soonyoung", t: "dapet aja luuu😂😂😂 acara itu bikin gw trauma sumpah" },
-  { me: "Bentarr, acara apa? Gue gak inget ada acara tv kayak gitu." },
-  { w: "Wonwoo", t: "Inget gue. Acaranya tayang di tv kabel sekitar 2004an, pas banget abis Rugrats." },
-  { me: "Bentar googling dulu." },
+  { w: "Jun", t: "hey guys, i found a bunch of videos while cleaning out old tapes in my parents' attic, found one containing clips from an old retro tv show we used to watch together after school at soonyoung's house. remember younghee's here?" },
+  { w: "Soonyoung", t: "lolol yeah creepy younghee😂😂😂 that show gave me trauma istg" },
+  { me: "What show? I don't remember any tv show called that." },
+  { w: "Wonwoo", t: "I remember. It aired on cable around 2004, right after Rugrats." },
+  { me: "Let me google it real quick." },
   { search: "whats Younghee's here" },
-  { me: "Gak masuk akal deh guys, gue searching sama sekali ga nemu apa-apa tentang'Younghee's Here'." },
+  { me: "This makes no sense guys, I'm searching and I can't find anything at all about a show called Younghee's Here??" },
 
   // ---------- SCENE 2 ----------
-  { w: "Soonyoung", t: "masa si? inget bgt gw ada episode yg serem bgtt pas si younghee main sembunyi-sembunyian sambil nyanyi. tapi tiap dia nengok ke belakang, anak-anak di layar gak gerak... mereka malah berdiri pake kepala... headstand gt..." },
-  { w: "Jun", t: "no gak gitu, seinget gue latarnya cuma ruangan kosong warna abu-abu. dan dia gak lagi main game, cuma berdiri sambil nyanyi lagu itu pake suara pelan berulang-ulang." },
-  { w: "Soonyoung", t: "ha? enggak deh. suaranya tajem banget melengking gitu. dia kayak teriak langsung ke mikrofon sampe sakit telinga gw" },
-  { w: "Jun", t: "teriak? enggak, justru kebalikannya kali. dia nyanyinya pelan banget sampe harus full-in volume tv, tapi at least bisa nyanyi lah dia." },
-  { w: "Wonwoo", t: "Lah malah seinget gue dia nyanyinya kayak sambil nangis gitu. Fals parah, kayak sering kesedak napas sendiri." },
-  { w: "Soonyoung", t: "brow kita beneran inget acara yang sama gak si? suara dia nyanyi bahkan kedengeran jelas banget di file video si jun tadi, dengerin aja nyaring banget itu." },
+  { w: "Soonyoung", t: "no way? i vividly remember there was this super creepy episode where younghee played hide and seek while singing. but every time she looked back, the kids on screen wouldn't move... they were standing on their heads..." },
+  { w: "Jun", t: "no that's not it, as far as i remember the background was just an empty gray room. and she wasn't playing a game, just standing and singing that song in a low voice on loop." },
+  { w: "Soonyoung", t: "huh? no way. her voice was so sharp. she was like screaming straight into the mic until my ears hurt" },
+  { w: "Jun", t: "screaming? no, quite the opposite actually. she sang so softly that you had to max out the tv volume, but at least she could actually sing." },
+  { w: "Wonwoo", t: "Well no. I actually remember her singing like she was crying. Completely pitchy, like she kept choking on her own breath." },
+  { w: "Soonyoung", t: "bro are we seriously remembering the same show? her singing voice is even super clear in that video file jun sent earlier, just listen to how loud it is." },
   { open: "vid1", secs: 4 },
-  { me: "Guys... kalian ngomongin apa sih..." },
-  { me: "Kan videonya ga ada suara?" },
-  { w: "Jun", t: "ngawur kok gak ada suara? gw baru aja dengerin ulang, dia nyanyi kok di video itu" },
+  { me: "Guys... what are you even talking about..." },
+  { me: "The video doesn't have any sound?" },
+  { w: "Jun", t: "what??? how is there no sound? i literally just re-listened, she is definitely singing in that video" },
 
   // ---------- SCENE 3 ----------
   { download: "vid1" },   // tap Jun's first video -> Download popup
   { analyze: true },      // open Waveform app -> upload the video
   { upload: "Audio Analysis Result", size: "3.1 MB", id: "rec", thumb: "images/gallery/analysis.jpg" },
-  { me: "Coba lihat trek audio ini deh, udah gue analisis pake Wave. Sama sekali gak ada suara, gelombang audionya garis lurus... literally 0 dB." },
-  { w: "Soonyoung", t: "tapi gw beneran denger kok di mp4 itu ada suara anak cewek nyanyi 'mugunghwa kkochi pieot seumnida' di background, waitt gw cek dl analisisnya" },
+  { me: "Take a look at this audio track, I analyzed it using Wave. There's no sound at all, the audio waveform is a flat line... literally 0 dB." },
+  { w: "Soonyoung", t: "but i genuinely heard a little girl's voice in that mp4 singing 'mugunghwa kkochi pieot seumnida' in the background, wait let me check the analysis" },
   { pause: 4000 },
   { w: "Soonyoung", t: "WJAT THE FYCK JIHOON" },
-  { w: "Wonwoo", t: "WTF gue barusan jatoh dari kursi????" },
-  { me: "Apaan??" },
-  { w: "Soonyoung", t: "stop becanda, ga lucu ya ji" },
-  { me: "Apa? Ga paham gue." },
-  { w: "Wonwoo", t: "Buka deh itu video yang lo kirim." },
+  { w: "Wonwoo", t: "WTF I literally just fell off my chair????" },
+  { me: "What???" },
+  { w: "Soonyoung", t: "stop joking around, it's not funny ji" },
+  { me: "What? I don't get it." },
+  { w: "Wonwoo", t: "Open the video you sent." },
   { open: "rec", secs: 3, video: "videos/audio_analysis.mp4", text: "Hana... Dul... Seet..." },
-  { me: "SUMPAH BUKAN GUE. Sebelumnya gak kayak gitu." },
-  { w: "Soonyoung", t: "nyenyenyenye fuck you" },
-  { w: "Wonwoo", t: "Guys btw, Jun mana?" },
-  { w: "Jun", t: "gue baru inget sesuatu... younghee itu bukan nama acara tv guys..." },
-  { w: "Wonwoo", t: "Hah?" },
-  { w: "Jun", t: "younghee itu cewek yang tinggal di sebelah rumah soonyoung, dia main bareng kita tiap hari pas pulang sekolah. dia ilang pertengahan 2004 sebelum kita masuk SMP" },
-  { me: "Jun, kita gak punya teman namanya younghee. Dulu cuma kita berempat." },
-  { w: "Jun", t: "dia sering main petak umpet bareng kita. dia selalu jadi yang jaga, trus dia nyanyiin lagu bunga yang sama kayak di video itu. lo semua gak inget?" },
+  { me: "I SWEAR IT WASN'T ME. It wasn't like that before." },
+  { w: "Soonyoung", t: "yeah fuck you" },
+  { w: "Wonwoo", t: "Guys by the way, where's Jun?" },
+  { w: "Jun", t: "hey so.. i just remembered something... younghee isn't the name of a tv show guys..." },
+  { w: "Wonwoo", t: "Huh?" },
+  { w: "Jun", t: "younghee was a girl who lived next door to soonyoung, she played with us every day after school. she disappeared in mid-2004 before we started middle school" },
+  { me: "Jun, we didn't have a friend named younghee. It was just the four of us." },
+  { w: "Jun", t: "she used to play hide and seek with us. she was always it, then she'd sing the same flower song as the one in that video. don't any of you remember?" },
   { w: "Jun", voice: "audio/voice.wav" },
-  { w: "Soonyoung", t: "what the fuck. gwe mau tanya aja lah ke mama soal ini. BRB." },
+  { w: "Soonyoung", t: "what the fuck. im just gonna go ask my mom about this. BRB." },
 
   // ---------- SCENE 4 ----------
-  { search: "Younghee. Tahun 2004." },
-  { search: "Younghee. Seoul. Tahun 2004." },
-  { search: "Younghee. Seoul. Tahun 2004. Hilang.", laugh: "audio/laugh.wav" },
-  { w: "Soonyoung", t: "gw nanya ke mama soal acara yang biasa kita tonton di rumah itu." },
-  { w: "Soonyoung", t: "kata beliau kita gak pernah nonton acara tv kabel apa pun. tv kabel aja ga punya." },
-  { w: "Soonyoung", t: "tapi tiap sore, kita berempat cuma duduk diam total di depan tv mati yang cuma nampilin semut selama tiga jam penuh, natap layar itu tanpa kedip." },
+  { search: "Younghee. Year 2004." },
+  { search: "Younghee. Seoul. Year 2004." },
+  { search: "Younghee. Seoul. Year 2004. Missing.", laugh: "audio/laugh.wav" },
+  { w: "Soonyoung", t: "i asked my mom about the show we used to watch at that house." },
+  { w: "Soonyoung", t: "she said we never watched tv shows." },
+  { w: "Soonyoung", t: "instead every evening, the four of us would just sit in total silence in front of a dead tv showing nothing but static for three whole hours, staring blankly at the screen without blinking." },
   { pause: 2500 },
   { w: "Jihoon", file: "images/reflection.jpeg", size: "1.8 MB", id: "refl" },   // stays in the chat until the reader taps it
-  { finale: "SEKARANG KALIAN INGAT AKU KAN?", image: "images/reflection.jpeg", after: "refl" }
+  { finale: "YOU REMEMBER ME NOW", image: "images/reflection.jpeg", after: "refl" }
 ];
